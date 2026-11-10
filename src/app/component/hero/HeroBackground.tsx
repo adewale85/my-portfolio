@@ -110,8 +110,8 @@ export function HeroBackground() {
       />
 
       {/* Atmospheric Background Glows */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[600px] h-[380px] bg-indigo-600/10 rounded-full blur-[140px] pointer-events-none z-0" />
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[550px] h-[380px] bg-orange-600/10 rounded-full blur-[140px] pointer-events-none z-0" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-150 h-95 bg-indigo-600/10 rounded-full blur-[140px] pointer-events-none z-0" />
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-137.5 h-95 bg-orange-600/10 rounded-full blur-[140px] pointer-events-none z-0" />
     </>
   );
 }

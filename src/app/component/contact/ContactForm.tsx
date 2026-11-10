@@ -53,19 +53,19 @@ export function ContactForm() {
       className="relative py-24 sm:py-32 px-6 sm:px-8 lg:px-12 bg-[#070913] overflow-hidden"
     >
       {/* Ambient background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] max-w-full h-[400px] bg-gradient-to-r from-indigo-900/10 via-purple-900/15 to-blue-900/10 rounded-full blur-[140px] pointer-events-none -z-0" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-175 max-w-full h-100 bg-linear-to-r from-indigo-900/10 via-purple-900/15 to-blue-900/10 rounded-full blur-[140px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
-            <span className="bg-gradient-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(168,154,249,0.3)]">
+            <span className="bg-linear-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(168,154,249,0.3)]">
               Get In Touch
             </span>
           </h2>
 
           <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg text-slate-300 font-normal">
-            Have a project in mind? Let's work together to build something amazing
+            Have a project in mind? Let&apos;s work together to build something amazing
           </p>
         </div>
 

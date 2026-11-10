@@ -47,7 +47,7 @@ export function Navbar() {
             href="#"
             className="flex items-center gap-3 group transition-transform duration-200 hover:scale-105"
           >
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#623bf7] to-[#7f4efc] flex items-center justify-center text-white shadow-md shadow-indigo-600/30">
+            <div className="w-9 h-9 rounded-xl bg-linear-to-br from-[#623bf7] to-[#7f4efc] flex items-center justify-center text-white shadow-md shadow-indigo-600/30">
               <Code className="w-5 h-5 stroke-[2.5]" />
             </div>
             <span className="text-white font-semibold text-lg tracking-tight group-hover:text-indigo-200 transition-colors">

@@ -11,12 +11,12 @@ export function Footer() {
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
         {/* Branding & Attribution */}
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-[#623bf7] to-[#7f4efc] flex items-center justify-center text-white shadow-md shadow-indigo-600/30">
+          <div className="w-8 h-8 rounded-xl bg-linear-to-br from-[#623bf7] to-[#7f4efc] flex items-center justify-center text-white shadow-md shadow-indigo-600/30">
             <Code className="w-4 h-4 stroke-[2.5]" />
           </div>
           <p className="text-white font-semibold text-base sm:text-lg tracking-tight">
             Designed and built by{" "}
-            <span className="bg-gradient-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent font-bold">
+            <span className="bg-linear-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent font-bold">
               Adewale Odusola
             </span>
             .

@@ -97,14 +97,14 @@ export function HeroAvatar() {
   ];
 
   return (
-    <div className="lg:col-span-5 relative flex items-center justify-center w-full min-h-[520px] sm:min-h-[580px] lg:min-h-[640px] my-6">
+    <div className="lg:col-span-5 relative flex items-center justify-center w-full min-h-130 sm:min-h-145 lg:min-h-160 my-6">
       {/* Concentric Radar / Orbit Rings scaled to fit large avatar */}
-      <div className="absolute w-[440px] sm:w-[520px] lg:w-[600px] h-[440px] sm:h-[520px] lg:h-[600px] rounded-full border border-orange-500/15 animate-pulse-ring pointer-events-none" />
-      <div className="absolute w-[340px] sm:w-[410px] lg:w-[480px] h-[340px] sm:h-[410px] lg:h-[480px] rounded-full border border-orange-500/20 pointer-events-none" />
-      <div className="absolute w-[240px] sm:w-[300px] lg:w-[360px] h-[240px] sm:h-[300px] lg:h-[360px] rounded-full border border-orange-500/25 pointer-events-none" />
+      <div className="absolute w-110 sm:w-130 lg:w-150 h-110 sm:h-130 lg:h-150 rounded-full border border-orange-500/15 animate-pulse-ring pointer-events-none" />
+      <div className="absolute w-85 sm:w-102.5 lg:w-120 h- 85sm:h-102.5 lg:h-120 rounded-full border border-orange-500/20 pointer-events-none" />
+      <div className="absolute w-60 sm:w-75 lg:w-90 h-60 sm:h-75 lg:h- 90 rounded-full border border-orange-500/25 pointer-events-none" />
 
       {/* Warm Ambient Backlight */}
-      <div className="absolute w-[360px] sm:w-[440px] h-[360px] sm:h-[440px] bg-gradient-to-tr from-orange-600/20 via-purple-600/15 to-transparent rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute w-90 sm:w-110 h-90 sm:h-110 bg-linear-to-tr from-orange-600/20 via-purple-600/15 to-transparent rounded-full blur-[100px] pointer-events-none" />
 
       {/* Floating 3D Tech Badges */}
       {badges.map((badge) => {
@@ -131,18 +131,18 @@ export function HeroAvatar() {
       })}
 
       {/* Hero Image Container: Large, Bold, and Bottom-Faded into Background */}
-      <div className="relative z-10 w-full max-w-[380px] sm:max-w-[480px] lg:max-w-[560px] h-[480px] sm:h-[540px] lg:h-[600px] flex items-end justify-center overflow-hidden">
+      <div className="relative z-10 w-full max-w-95 sm:max-w-120 lg:max-w-140 h-120 sm:h-135 lg:h-150 flex items-end justify-center overflow-hidden">
         <Image
           src="/hero_image3.png"
           alt="Adewale Odusola - Frontend Developer"
           width={640}
           height={640}
           priority
-          className="w-full h-full object-contain object-bottom drop-shadow-[0_25px_50px_rgba(0,0,0,0.85)] select-none pointer-events-none [mask-image:linear-gradient(to_bottom,black_65%,transparent_98%)] [-webkit-mask-image:linear-gradient(to_bottom,black_65%,transparent_98%)]"
+          className="w-full h-full object-contain object-bottom drop-shadow-[0_25px_50px_rgba(0,0,0,0.85)] select-none pointer-events-none [mask-image: linear-gradient(to bottom,black 65%,transparent 98%)] [-webkit-mask-image:linear-gradient(to_bottom,black_65%,transparent_98%)]"
         />
 
         {/* Seamless bottom fade overlay into cosmic background #070913 */}
-        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-32 bg-gradient-to-t from-[#070913] via-[#070913]/70 to-transparent pointer-events-none" />
+        <div className="absolute inset-x-0 bottom-0 h-24 sm:h-32 bg-linear-to-t from-[#070913] via-[#070913]/70 to-transparent pointer-events-none" />
       </div>
     </div>
   );

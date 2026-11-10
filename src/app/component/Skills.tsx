@@ -59,14 +59,14 @@ export function Skills() {
       className="relative py-24 sm:py-32 px-6 sm:px-8 lg:px-12 bg-[#070913] overflow-hidden"
     >
       {/* Ambient background glows */}
-      <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-[600px] h-[350px] bg-indigo-900/10 rounded-full blur-[140px] pointer-events-none -z-0" />
-      <div className="absolute top-2/3 right-1/4 -translate-y-1/2 w-[500px] h-[300px] bg-purple-900/10 rounded-full blur-[140px] pointer-events-none -z-0" />
+      <div className="absolute top-1/2 left-1/3 -translate-y-1/2 w-150 h-87.5 bg-indigo-900/10 rounded-full blur-[140px] pointer-events-none z-0" />
+      <div className="absolute top-2/3 right-1/4 -translate-y-1/2 w-125 h-75 bg-purple-900/10 rounded-full blur-[140px] pointer-events-none z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
-            <span className="bg-gradient-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(168,154,249,0.3)]">
+            <span className="bg-linear-to-r from-[#9eb9fc] via-[#b096f9] to-[#c78bfa] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(168,154,249,0.3)]">
               Technical Skills
             </span>
           </h2>

@@ -97,12 +97,12 @@ export function TestimonialSlider() {
       </div>
 
       {/* Testimonial Quote text with smooth key transition */}
-      <div className="min-h-[70px] sm:min-h-[64px] flex items-center mb-5">
+      <div className="min-h-17.5 sm:min-h-16 flex items-center mb-5">
         <p
           key={activeItem.id}
           className="text-sm sm:text-base text-slate-300 leading-relaxed font-normal animate-in fade-in duration-300"
         >
-          "{activeItem.quote}"
+          &ldquo;{activeItem.quote}&rdquo;
         </p>
       </div>
 

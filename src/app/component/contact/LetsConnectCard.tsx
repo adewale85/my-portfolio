@@ -84,11 +84,11 @@ function TwitterIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
      <div className="rounded-2xl bg-[#0c1228]/60 backdrop-blur-sm border border-slate-800/80 p-7 sm:p-9 flex flex-col shadow-[0_12px_35px_-8px_rgba(0,0,0,0.5)]">
             <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight mb-3">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-normal mb-8">
-              I'm always open to discussing new projects, creative ideas, or
+              I&apos;m always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision. Feel free to reach out
               through any of these channels.
             </p>
@@ -106,7 +106,7 @@ function TwitterIcon({ className = "w-4 h-4" }: { className?: string }) {
                     className="flex items-center gap-3.5 group transition-colors duration-200"
                   >
                     <div className="w-9 h-9 rounded-lg bg-[#141b36] border border-slate-700/50 flex items-center justify-center text-slate-300 group-hover:text-white group-hover:border-indigo-500/50 group-hover:bg-[#1a2347] transition-all">
-                      <Icon className="w-4 h-4 stroke-[2]" />
+                      <Icon className="w-4 h-4 stroke-2" />
                     </div>
                     <span className="text-sm font-medium text-slate-300 group-hover:text-white transition-colors">
                       {channel.name}
