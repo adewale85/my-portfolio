@@ -15,7 +15,7 @@ export function Projects() {
       imageFallbackText: "Inventory Management System",
       tags: ["HTML5","CSS3","JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Supabase", "PostgreSQL",],
       codeUrl: "https://github.com/adewale85/my-inventory-web",
-      demoUrl: "https://my-inventory-ml6pobw56-adewale85s-projects.vercel.app",
+      demoUrl: "https://vercel.com/adewale85s-projects/my-inventory-web",
     },
     {
       title: "E-commerce Platform",
@@ -26,7 +26,7 @@ export function Projects() {
       imageFallbackText: "Ecommerce Platform.jpg",
       tags: ["HTML5","CSS3","JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Supabase", "PostgreSQL",],
       codeUrl: "https://github.com/adewale85/nextjs-exclusive-app",
-      demoUrl: "https://exclusive-app2-git-main-adewale85s-projects.vercel.app/",
+      demoUrl: "https://nextjs-exclusive-app-q8yv.vercel.app/",
     },
     {
       title: "Myvamsnet website",
