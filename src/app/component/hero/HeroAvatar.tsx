@@ -27,7 +27,7 @@ export function HeroAvatar() {
     {
       name: "Next.js",
       icon: Zap,
-      position: "-top-5 sm:-top-4 left-1/3 -translate-x-1/2 sm:translate-x-8",
+      position: "-top-5 sm:-top-4 left-1/2 md:left-1/3 -translate-x-1/2 sm:translate-x-8",
       animation: "animate-float-reverse",
       border: "border-slate-400/30",
       shadow: "shadow-[0_8px_25px_rgba(255,255,255,0.15)]",

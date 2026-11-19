@@ -12,35 +12,35 @@ export interface Testimonial {
   avatar: string;
 }
 
+
 const testimonials: Testimonial[] = [
   {
     id: 1,
     quote:
-      "Exceptional full-stack developer who builds high-performance, robust web applications with modern architecture and great precision.",
-    name: "Carolina Abbott",
-    role: "Business Owner",
-    avatar:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "A dedicated and innovative developer with a strong eye for detail. He approaches challenges thoughtfully, writes maintainable code, and consistently delivers solutions that align with project goals.",
+    name: "Felix Olatubora",
+    role: "Tech Lead & Founder",
+    avatar: "/Master_Felix.jpg",
   },
-  {
+   {
     id: 2,
     quote:
-      "Delivered our MERN platform on time with clean code, incredible speed, and seamless real-time WebSocket communication.",
-    name: "Marcus Vance",
-    role: "Tech Lead & Founder",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "He understands that great technology should solve real business problems. His commitment to delivering user-friendly digital experiences and practical solutions makes him someone you can trust with your business goals.",
+    name: "Idowu Samson",
+    role: "Business Owner & Founder",
+    avatar: "/Master_Sam.jpg",
   },
   {
     id: 3,
     quote:
-      "A true master of UI responsiveness and scalable backend APIs. The user engagement on our web app doubled after launch.",
-    name: "Sophia Chen",
-    role: "Product Manager",
-    avatar:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80",
+      "A talented frontend engineer with a solid understanding of modern web technologies. His ability to translate designs into responsive, functional interfaces and collaborate effectively makes him a valuable team member.",
+    name: "Damilola Maxwell",
+    role: "Senior Frontend Engineer",
+    avatar: "/Master_Dami.jpg",
   },
+ 
 ];
+
 
 export function TestimonialSlider() {
   const [current, setCurrent] = useState(0);
