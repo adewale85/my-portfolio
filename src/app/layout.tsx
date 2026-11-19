@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Adewale's Portfolio",
     images: [
       {
-        url: "/my-image.jpg",
+        url: "/my_image.jpg",
         width: 1200,
         height: 630,
         alt: "Adewale - Software Engineer",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Adewale | Software Engineer",
     description:
       "Explore my projects, skills, and experience as a Software Engineer.",
-    images: ["/my-image.jpg"],
+    images: ["/my_image.jpg"],
   },
 };
 
