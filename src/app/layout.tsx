@@ -12,12 +12,46 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Welcome to my portfolio website, showcasing my projects, skills, and experience as a web developer. Explore my work and get in touch for collaborations or inquiries.",
+  metadataBase: new URL("https://my-portfolio-drab-nine-13.vercel.app"),
+
+  title: "Adewale | Software Engineer",
+
+  description:
+    "Welcome to my portfolio, showcasing my projects, technical skills, and experience as a Software Engineer.",
+
+  openGraph: {
+    title: "Adewale | Software Engineer",
+    description:
+      "Explore my projects, skills, and experience as a Software Engineer.",
+    url: "https://my-portfolio-drab-nine-13.vercel.app",
+    siteName: "Adewale's Portfolio",
+    images: [
+      {
+        url: "/my-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Adewale - Software Engineer",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Adewale | Software Engineer",
+    description:
+      "Explore my projects, skills, and experience as a Software Engineer.",
+    images: ["/my-image.jpg"],
+  },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html
       lang="en"
@@ -27,3 +61,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </html>
   );
 }
+
+
+
+
+
