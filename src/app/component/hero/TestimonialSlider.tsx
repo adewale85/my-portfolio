@@ -19,15 +19,15 @@ const testimonials: Testimonial[] = [
     quote:
       "A dedicated and innovative developer with a strong eye for detail. He approaches challenges thoughtfully, writes maintainable code, and consistently delivers solutions that align with project goals.",
     name: "Felix Olatubora",
-    role: "Tech Lead & Founder",
+    role: "MyVamsnet CTO",
     avatar: "/Master_Felix.jpg",
   },
    {
     id: 2,
     quote:
       "He understands that great technology should solve real business problems. His commitment to delivering user-friendly digital experiences and practical solutions makes him someone you can trust with your business goals.",
-    name: "Idowu Samson",
-    role: "Business Owner & Founder",
+    name: "Sam Victor",
+    role: "Entrepreneur & Engineer",
     avatar: "/Master_Sam.jpg",
   },
   {
